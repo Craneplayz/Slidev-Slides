@@ -1,0 +1,17 @@
+{
+	"name": "staining",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "slidev build",
+		"dev": "slidev --open",
+		"export": "slidev export",
+		"export:dark": "slidev export --dark --with-toc"
+	},
+	"dependencies": {
+		"@slidev/cli": "^0.48.8",
+		"@slidev/theme-default": "latest",
+		"@slidev/theme-seriph": "latest",
+		"vue": "^3.4.21"
+	}
+}

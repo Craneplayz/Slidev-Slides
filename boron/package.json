@@ -1,0 +1,18 @@
+{
+  "name": "boron",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "vite preview",
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "export:dark": "slidev export --dark"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.0-beta.21",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.4.21"
+  }
+}
